@@ -2,7 +2,7 @@
   "success": 1,
   "total_time": 130.34314274787903,
   "avg_iteration_time": 1.303428828716278,
-  "max_iteration_time": 3.651247501373291,
+  "max_iteration_time": 3.6512.7.0rc01373291,
   "min_iteration_time": 0.09438443183898926,
   "_runtime": 902.0143933296204,
   "_session_url": "https://beta.anyscale.com/o/anyscale-internal/projects/prj_2xR6uT6t7jJuu1aCwWMsle/clusters/ses_pxDnaxYFzDNsyifjJNV1qhqs",

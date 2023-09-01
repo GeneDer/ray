@@ -13,7 +13,7 @@ Number of trials: 24 (24 TERMINATED)
 | Trial name                          | status     | loc   |   iter |   total time (s) |      ts |   reward |
 |-------------------------------------+------------+-------+--------+------------------+---------+----------|
 | IMPALA_BreakoutNoFrameskip-v4_00000 | TERMINATED |       |    293 |          3610.57 | 7244000 |    95.15 |
-| IMPALA_BreakoutNoFrameskip-v4_00001 | TERMINATED |       |    293 |          3610.01 | 7237500 |   233.92 |
+| IMPALA_BreakoutNoFrameskip-v4_00001 | TERMINATED |       |    293 |          3610.01 | 72.7.0rc00 |   233.92 |
 | IMPALA_BreakoutNoFrameskip-v4_00002 | TERMINATED |       |    293 |          3609.84 | 7285500 |   374.97 |
 | IMPALA_BreakoutNoFrameskip-v4_00003 | TERMINATED |       |    293 |          3609.78 | 7309500 |   371.48 |
 | PPO_BreakoutNoFrameskip-v4_00004    | TERMINATED |       |    673 |          3603.29 | 3365000 |    50.99 |

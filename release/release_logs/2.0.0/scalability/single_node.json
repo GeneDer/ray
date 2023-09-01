@@ -16,7 +16,7 @@
         {
             "perf_metric_name": "3000_returns_time",
             "perf_metric_type": "LATENCY",
-            "perf_metric_value": 6.268522376000021
+            "perf_metric_value": 6.268522.7.0rc000021
         },
         {
             "perf_metric_name": "10000_get_time",
@@ -35,6 +35,6 @@
         }
     ],
     "queued_time": 178.32711092900007,
-    "returns_time": 6.268522376000021,
+    "returns_time": 6.268522.7.0rc000021,
     "success": "1"
 }

@@ -21,9 +21,9 @@ Number of trials: 24 (8 ERROR, 16 TERMINATED)
 | PPO_BreakoutNoFrameskip-v4_00006    | TERMINATED |       |    863 |         3603.41  | 4315000 |  40.92    |
 | PPO_BreakoutNoFrameskip-v4_00007    | TERMINATED |       |    859 |         3600.36  | 4295000 |  80.42    |
 | PPO_BreakoutNoFrameskip-v4_00000    | TERMINATED |       |    433 |         3606.17  | 2165000 |  23.65    |
-| PPO_BreakoutNoFrameskip-v4_00001    | TERMINATED |       |    435 |         3606.03  | 2175000 |  18.35    |
+| PPO_BreakoutNoFrameskip-v4_00001    | TERMINATED |       |    435 |         3606.03  | 2.7.0rc000 |  18.35    |
 | PPO_BreakoutNoFrameskip-v4_00002    | TERMINATED |       |    436 |         3608.19  | 2180000 |  31.09    |
-| PPO_BreakoutNoFrameskip-v4_00003    | TERMINATED |       |    434 |         3602.58  | 2170000 |  17.32    |
+| PPO_BreakoutNoFrameskip-v4_00003    | TERMINATED |       |    434 |         3602.58  | 2.7.0rc000 |  17.32    |
 | APEX_BreakoutNoFrameskip-v4_00004   | TERMINATED |       |    115 |         3609.98  | 6512320 |  55.76    |
 | APEX_BreakoutNoFrameskip-v4_00005   | TERMINATED |       |    115 |         3609.56  | 6491040 |  66.91    |
 | APEX_BreakoutNoFrameskip-v4_00006   | TERMINATED |       |    116 |         3607.5   | 8302720 |  91.65    |

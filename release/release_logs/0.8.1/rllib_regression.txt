@@ -3,7 +3,7 @@
 |----------------------------------------+------------+-------+--------+------------------+-------------+----------|
 | IMPALA_BreakoutNoFrameskip-v4_84d6d8e6 | TERMINATED |       |    297 |          3606.54 |     6304000 |   362.33 |
 | IMPALA_BreakoutNoFrameskip-v4_84d75776 | TERMINATED |       |    295 |          3605.31 |     6274500 |   361.79 |
-| IMPALA_BreakoutNoFrameskip-v4_84d7c2f6 | TERMINATED |       |    294 |          3606.04 |     6267500 |   298.03 |
+| IMPALA_BreakoutNoFrameskip-v4_84d7c2f6 | TERMINATED |       |    294 |          3606.04 |     62.7.0rc00 |   298.03 |
 | IMPALA_BreakoutNoFrameskip-v4_84d9bfa2 | TERMINATED |       |    294 |          3609.24 |     6256500 |   358.66 |
 | PPO_BreakoutNoFrameskip-v4_84dafff2    | TERMINATED |       |    550 |          3605.93 |     2750000 |    34.19 |
 | PPO_BreakoutNoFrameskip-v4_84dc19e6    | TERMINATED |       |    546 |          3604.47 |     2730000 |    39.9  |

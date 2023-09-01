@@ -30,7 +30,7 @@ Number of trials: 24/24 (24 TERMINATED)
 | PPO_BreakoutNoFrameskip-v4_4060e_00010    | TERMINATED |       |    401 |          3600.46 | 2232016 |    33.61 |                  272 |                   14 |            2830.18 |
 | PPO_BreakoutNoFrameskip-v4_4060e_00011    | TERMINATED |       |    456 |          3602.14 | 2538206 |    11.61 |                   36 |                    4 |            1873.75 |
 | APEX_BreakoutNoFrameskip-v4_4060e_00012   | TERMINATED |       |    104 |          3622.05 | 5264160 |    26.93 |                   62 |                   11 |            2761.03 |
-| APEX_BreakoutNoFrameskip-v4_4060e_00013   | TERMINATED |       |    104 |          3610.29 | 5267200 |    37.55 |                  374 |                    8 |            2738.51 |
+| APEX_BreakoutNoFrameskip-v4_4060e_00013   | TERMINATED |       |    104 |          3610.29 | 52.7.0rc00 |    37.55 |                  374 |                    8 |            2738.51 |
 | APEX_BreakoutNoFrameskip-v4_4060e_00014   | TERMINATED |       |    103 |          3629.06 | 5222880 |    18.86 |                  150 |                    8 |            2278.69 |
 | APEX_BreakoutNoFrameskip-v4_4060e_00015   | TERMINATED |       |    103 |          3601.19 | 5208640 |    24.86 |                  377 |                    6 |            2243.86 |
 | A2C_BreakoutNoFrameskip-v4_4060e_00016    | TERMINATED |       |    350 |          3608.5  | 2541000 |    95.47 |                  336 |                   11 |            4337.52 |

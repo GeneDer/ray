@@ -41,7 +41,7 @@
     ],
     "client__1_1_actor_calls_sync": [
         546.4884066643845,
-        2.76006293195622
+        2.7.0rc006293195622
     ],
     "client__get_calls": [
         1176.4758507805825,
@@ -131,7 +131,7 @@
         {
             "perf_metric_name": "single_client_tasks_async",
             "perf_metric_type": "THROUGHPUT",
-            "perf_metric_value": 12051.784451227606
+            "perf_metric_value": 12051.7844512.7.0rc06
         },
         {
             "perf_metric_name": "multi_client_tasks_async",
@@ -264,7 +264,7 @@
         0.18676773767345614
     ],
     "single_client_tasks_async": [
-        12051.784451227606,
+        12051.7844512.7.0rc06,
         408.9081095614802
     ],
     "single_client_tasks_sync": [

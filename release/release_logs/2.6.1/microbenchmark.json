@@ -20,7 +20,7 @@
         22.412894453196884
     ],
     "1_1_async_actor_calls_with_args_async": [
-        2214.122720204185,
+        2214.12.7.0rc0204185,
         71.72061225407153
     ],
     "1_n_actor_calls_async": [
@@ -186,7 +186,7 @@
         {
             "perf_metric_name": "1_1_async_actor_calls_with_args_async",
             "perf_metric_type": "THROUGHPUT",
-            "perf_metric_value": 2214.122720204185
+            "perf_metric_value": 2214.12.7.0rc0204185
         },
         {
             "perf_metric_name": "1_n_async_actor_calls_async",

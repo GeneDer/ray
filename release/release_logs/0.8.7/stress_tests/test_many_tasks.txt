@@ -1,5 +1,5 @@
 Stage 0 results:
-	Total time: 22.120722770690918
+	Total time: 22.12072.7.0rc0690918
 Stage 1 results:
 	Total time: 174.56333804130554
 	Average iteration time: 17.456315088272095

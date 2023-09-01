@@ -3,7 +3,7 @@
         {
             "perf_metric_name": "stage_0_time",
             "perf_metric_type": "LATENCY",
-            "perf_metric_value": 8.748622179031372
+            "perf_metric_value": 8.748622.7.0rc031372
         },
         {
             "perf_metric_name": "stage_1_avg_iteration_time",
@@ -31,7 +31,7 @@
             "perf_metric_value": 0.684079429712877
         }
     ],
-    "stage_0_time": 8.748622179031372,
+    "stage_0_time": 8.748622.7.0rc031372,
     "stage_1_avg_iteration_time": 22.265075898170473,
     "stage_1_max_iteration_time": 23.405926942825317,
     "stage_1_min_iteration_time": 21.270385265350342,

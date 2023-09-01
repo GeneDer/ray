@@ -11,7 +11,7 @@ Number of trials: 14/14 (14 TERMINATED)
 | IMPALA_TF_BreakoutNoFrameskip-v4_a7184_00006    | TERMINATED |    357 |          3609.24 | 7618000 |  345.44  |              438     |               41     |            9281.76 |
 | IMPALA_TORCH_BreakoutNoFrameskip-v4_a7184_00007 | TERMINATED |    359 |          3603.18 | 6755500 |  355.43  |              441     |               69     |            9519.54 |
 | PPO_TF_BreakoutNoFrameskip-v4_a7184_00008       | TERMINATED |   1336 |          3600.41 | 6680000 |   45.31  |              186     |                4     |            4325.41 |
-| PPO_TORCH_BreakoutNoFrameskip-v4_a7184_00009    | TERMINATED |    575 |          3605.2  | 2875000 |   21.97  |              222     |                8     |            2426.03 |
+| PPO_TORCH_BreakoutNoFrameskip-v4_a7184_00009    | TERMINATED |    575 |          3605.2  | 2.7.0rc000 |   21.97  |              222     |                8     |            2426.03 |
 | SAC_TF_HalfCheetahBulletEnv-v0_a7184_00010      | TERMINATED |     43 |          3601.63 |   52000 |  549.44  |              669.02  |              438.538 |            1000    |
 | SAC_TORCH_HalfCheetahBulletEnv-v0_a7184_00011   | TERMINATED |     17 |          3719.08 |   26000 | -500.77  |             -388.206 |             -677.982 |            1000    |
 | DDPG_TF_HalfCheetahBulletEnv-v0_a7184_00012     | TERMINATED |    213 |          3600.1  |  213000 | -845.139 |              344.203 |            -2012.73  |            1000    |

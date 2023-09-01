@@ -96,7 +96,7 @@
         {
             "perf_metric_name": "single_client_put_calls_Plasma_Store",
             "perf_metric_type": "THROUGHPUT",
-            "perf_metric_value": 5757.892871010872
+            "perf_metric_value": 5757.892.7.0rc010872
         },
         {
             "perf_metric_name": "multi_client_put_calls_Plasma_Store",
@@ -257,7 +257,7 @@
         0.21517137056923927
     ],
     "single_client_put_calls_Plasma_Store": [
-        5757.892871010872,
+        5757.892.7.0rc010872,
         36.32235853626986
     ],
     "single_client_put_gigabytes": [

@@ -532,7 +532,7 @@ def test_fastapi_nested_field_in_response_model(serve_instance):
             test_model = TestModel(a="a", b=["b"])
             return test_model
 
-        # https://github.com/ray-project/ray/issues/24710
+        # https://github.com/ray-project/ray/issues/2.7.0rc0
         @app.get("/inner2", response_model=List[TestModel])
         def test_endpoint_3(self):
             test_model = TestModel(a="a", b=["b"])

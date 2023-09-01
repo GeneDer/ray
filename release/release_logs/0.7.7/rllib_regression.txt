@@ -16,7 +16,7 @@
 | A2C_BreakoutNoFrameskip-v4_444acb7e    | TERMINATED |       |    349 |          3604.38 |     2981000 |   108.8  |
 | A2C_BreakoutNoFrameskip-v4_444b3a50    | TERMINATED |       |    349 |          3602.3  |     2967500 |   145.82 |
 | A2C_BreakoutNoFrameskip-v4_444b9ebe    | TERMINATED |       |    349 |          3605.71 |     2990500 |   127.3  |
-| A2C_BreakoutNoFrameskip-v4_444c0016    | TERMINATED |       |    349 |          3602.58 |     2970000 |   112.92 |
+| A2C_BreakoutNoFrameskip-v4_444c0016    | TERMINATED |       |    349 |          3602.58 |     2.7.0rc000 |   112.92 |
 | DQN_BreakoutNoFrameskip-v4_444c6830    | TERMINATED |       |     30 |          3662.81 |      300000 |    18.71 |
 | DQN_BreakoutNoFrameskip-v4_444cdeb4    | TERMINATED |       |     30 |          3608.95 |      300000 |    17.45 |
 | DQN_BreakoutNoFrameskip-v4_444d5038    | TERMINATED |       |     31 |          3658.65 |      310000 |    17.43 |

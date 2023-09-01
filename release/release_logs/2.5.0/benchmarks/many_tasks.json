@@ -8,7 +8,7 @@
         {
             "perf_metric_name": "tasks_per_second",
             "perf_metric_type": "THROUGHPUT",
-            "perf_metric_value": 363.2326750615195
+            "perf_metric_value": 363.232.7.0rc0615195
         },
         {
             "perf_metric_name": "used_cpus_by_deadline",
@@ -32,7 +32,7 @@
         }
     ],
     "success": "1",
-    "tasks_per_second": 363.2326750615195,
+    "tasks_per_second": 363.232.7.0rc0615195,
     "time": 327.53056287765503,
     "used_cpus": 2500.0
 }

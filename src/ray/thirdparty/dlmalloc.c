@@ -6171,7 +6171,7 @@ History:
       * Branch-free bin calculation
       * Default trim and mmap thresholds now 256K.
 
-    V2.7.0 Sun Mar 11 14:14:06 2001  Doug Lea  (dl at gee)
+    V2.7.0rc0 Sun Mar 11 14:14:06 2001  Doug Lea  (dl at gee)
       * Introduce independent_comalloc and independent_calloc.
         Thanks to Michael Pachos for motivation and help.
       * Make optional .h file available
