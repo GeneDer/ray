@@ -105,7 +105,7 @@ $ serve build model:translator_app -o config.yaml
 
 The `serve build` command adds a default application name that can be modified. The resulting Serve config file is:
 
-```
+```yaml
 proxy_location: EveryNode
 
 http_options:

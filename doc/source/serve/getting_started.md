@@ -104,11 +104,9 @@ parameters in the `@serve.deployment` decorator. The example configures a few co
 
 All these parameters are optional, so feel free to omit them:
 
-```python
-...
-@serve.deployment
-class Translator:
-  ...
+```{literalinclude} ../serve/doc_code/getting_started/translator.py
+:lines: 14,15
+:language: python
 ```
 
 Deployments receive Starlette HTTP `request` objects [^f1]. By default, the deployment class's `__call__` method is called on this `request` object. The return value is sent back in the HTTP response body.
@@ -162,7 +160,7 @@ We'll send a POST request with JSON data containing our English text.
 
 To test our deployment, first make sure `Translator` is running:
 
-```
+```console
 $ serve run serve_deployment:translator_app
 ```
 
@@ -210,16 +208,18 @@ Here's an application that chains the two models together. The graph takes Engli
 
 This script contains our `Summarizer` class converted to a deployment and our `Translator` class with some modifications. In this script, the `Summarizer` class contains the `__call__` method since requests are sent to it first. It also takes in a handle to the `Translator` as one of its constructor arguments, so it can forward summarized texts to the `Translator` deployment. The `__call__` method also contains some new code:
 
-```python
-translation = await self.translator.translate.remote(summary)
+```{literalinclude} ../serve/doc_code/getting_started/translator.py
+:lines: 50
+:language: python
 ```
 
 `self.translator.translate.remote(summary)` issues an asynchronous call to the `Translator`'s `translate` method and returns a `DeploymentResponse` object immediately. Calling `await` on the response waits for the remote method call to execute and returns its return value. The response could also be passed directly to another `DeploymentHandle` call.
 
 We define the full application as follows:
 
-```python
-app = Summarizer.bind(Translator.bind())
+```{literalinclude} ../serve/doc_code/getting_started/translator.py
+:lines: 54
+:language: python
 ```
 
 Here, we bind `Translator` to its (empty) constructor arguments, and then we pass in the bound `Translator` as the constructor argument for the `Summarizer`. We can run this deployment graph using the `serve run` CLI command. Make sure to run this command from a directory containing a local copy of the `serve_quickstart_composed.py` code:
@@ -231,7 +231,7 @@ $ serve run serve_quickstart_composed:app
 We can use this client script to make requests to the graph:
 
 ```{literalinclude} ../serve/doc_code/getting_started/translator.py
-:start-after: __start_client__
+:start-after: __start_client__git 
 :end-before: __end_client__
 :language: python
 ```
