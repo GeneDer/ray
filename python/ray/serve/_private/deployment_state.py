@@ -1251,8 +1251,7 @@ class DeploymentState:
         """
         Check if the deployment is under autoscaling
         """
-        return self._target_state.info.autoscaling_policy is not None
-        # return self.autoscaling_policy_manager.should_autoscale()
+        return self.autoscaling_policy_manager.should_autoscale()
 
     def get_autoscale_metric_lookback_period(self) -> float:
         """
@@ -1512,15 +1511,16 @@ class DeploymentState:
             return False
 
         # Decide new target num_replicas.
-        if self.should_autoscale():
-            initial_replicas = self.autoscaling_policy_manager.config.initial_replicas
+        autoscaling_policy_manager = deployment_info.autoscaling_policy_manager
+        if autoscaling_policy_manager.should_autoscale():
+            initial_replicas = autoscaling_policy_manager.config.initial_replicas
             if deployment_settings_changed and initial_replicas is not None:
                 target_num_replicas = get_capacity_adjusted_num_replicas(
                     initial_replicas,
                     deployment_info.target_capacity,
                 )
             else:
-                target_num_replicas = self.autoscaling_policy_manager.apply_bounds(
+                target_num_replicas = autoscaling_policy_manager.apply_bounds(
                     self._target_state.target_num_replicas,
                     deployment_info.target_capacity,
                     deployment_info.target_capacity_direction,
