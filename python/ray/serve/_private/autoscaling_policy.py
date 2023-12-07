@@ -350,8 +350,6 @@ class AutoscalingPolicyManager:
             target_capacity=target_capacity,
             override_min_replicas=override_min_replicas,
         )
-        if decision_num_replicas == curr_target_num_replicas:
-            return None
 
         return decision_num_replicas
 
