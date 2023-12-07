@@ -383,12 +383,16 @@ class TestGetDecisionNumReplicas:
         assert new_num_replicas == 100
 
         # Two new replicas spun up during this timestep.
-        new_num_replicas = policy_manager.get_decision_num_replicas(100, [100, 20, 3], 0)
+        new_num_replicas = policy_manager.get_decision_num_replicas(
+            100, [100, 20, 3], 0
+        )
         assert new_num_replicas == 123
 
         # A lot of queries got drained and a lot of replicas started up, but
         # new_num_replicas should not decrease, because of the downscale delay.
-        new_num_replicas = policy_manager.get_decision_num_replicas(123, [6, 2, 1, 1], 0)
+        new_num_replicas = policy_manager.get_decision_num_replicas(
+            123, [6, 2, 1, 1], 0
+        )
         assert new_num_replicas == 123
 
     @pytest.mark.parametrize("delay_s", [30.0, 0.0])

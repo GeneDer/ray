@@ -1591,7 +1591,10 @@ class DeploymentState:
             target_capacity_direction=self._target_state.info.target_capacity_direction,
         )
 
-        if decision_num_replicas is None or decision_num_replicas == self._target_state.target_num_replicas:
+        if (
+            decision_num_replicas is None
+            or decision_num_replicas == self._target_state.target_num_replicas
+        ):
             return
 
         logger.info(
