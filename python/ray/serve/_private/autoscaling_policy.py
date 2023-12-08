@@ -192,6 +192,11 @@ class BasicAutoscalingPolicy:
                 context.target_capacity,
             ),
         )
+
+        # Initialize the decision counter.
+        if not hasattr(context, "decision_counter"):
+            context.decision_counter = 0
+
         # Scale up.
         if desired_num_replicas > context.curr_target_num_replicas:
             # If the previous decision was to scale down (the counter was

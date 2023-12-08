@@ -32,7 +32,6 @@ class AutoscalingContext:
         self.current_handle_queued_queries = 0.0
         self.override_min_replicas = 0
         self.target_capacity = None
-        self.decision_counter = 0
 
     def update(
         self,
